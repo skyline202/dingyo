@@ -1,7 +1,7 @@
 
 // 部署完成后在网址后面加上这个，获取自建节点和机场聚合节点，/?token=auto或/auto或
 
-let mytoken = 'auto';
+let mytoken = 'dingyuecc';
 let guestToken = ''; //可以随便取，或者uuid生成，https://1024tools.com/uuid
 let BotToken = ''; //可以为空，或者@BotFather中输入/start，/newbot，并关注机器人
 let ChatID = ''; //可以为空，或者@userinfobot中获取，/start
@@ -13,7 +13,14 @@ let timestamp = 4102329600000;//2099-12-31
 
 //节点链接 + 订阅链接
 let MainData = `
-https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray
+vless://345978d2-ca3c-4972-a9fe-fc59fa27bb2d@da.660214.xyz:36545?encryption=none&security=none&type=ws&path=%2Ffasdw#TW1-q6t398t5
+vless://7b130b3b-c302-499a-a835-9f76eeca1b65@da.660214.xyz:23980?encryption=none&security=none&type=ws&path=%2Fudcfsa#HK1-ax7il9n8
+vless://318317a2-13e5-4c59-a5ba-fb2c8ae94985@da.660214.xyz:52158?encryption=none&security=none&type=ws&path=%2Fsvsdfe#US1-7nuk1v0k
+vless://8f0ab9c9-7f21-4de3-a01e-011df792df9b@da.660214.xyz:37989?encryption=none&security=none&type=ws&path=%2Frwasdwa#JP1-xwkgyydj
+vless://64d36614-180f-4a7e-a988-882d36f358ed@da.660214.xyz:37989?encryption=none&security=none&type=ws&path=%2Frwasdwa#JP1-gwmhwqf2
+vless://19595851-e53f-4988-8aaf-8d522751184b@da.660214.xyz:37989?encryption=none&security=none&type=ws&path=%2Frwasdwa#JP1-l5uo9z5o
+vless://e542b0e5-0643-43bb-b57a-f6f50176c527@da.660214.xyz:37989?encryption=none&security=none&type=ws&path=%2Frwasdwa#JP1-aixhvqll
+vless://294d954e-0445-447c-8869-c07edc081f10@da.660214.xyz:37989?encryption=none&security=none&type=ws&path=%2Frwasdwa#JP1-lqwyis2t
 `;
 
 let urls = [];
