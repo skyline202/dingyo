@@ -13,15 +13,15 @@ let timestamp = 4102329600000;//2099-12-31
 
 //节点链接 + 订阅链接
 let MainData = `
-vless://f7f79169-6e0e-43a0-af9e-e322c43c6968@da.660214.xyz:30321?encryption=none&security=none&type=ws&path=%2Fsdaasd#US-e5wb7qqi
-vless://5b92c1fa-16c9-4cfa-9c7b-d6db984b8f90@da.660214.xyz:52834?encryption=none&security=none&type=ws&path=%2Fcsdasda#HK-am375glk
-vless://0ec69997-74f0-4823-a5b5-0c08d428a380@da.660214.xyz:47908?encryption=none&security=none&type=ws&path=%2Fbdssfasd#JP-87wj0r7q
-vless://3de196e7-c6fc-4919-a253-4f952177ad77@da.660214.xyz:35917?encryption=none&security=none&type=ws&path=%2Fgdsdfxa#TW-dof6f73g
-vless://71f683b1-9a27-4a4a-b19e-aff8be56dbd0@da.660214.xyz:35917?encryption=none&security=none&type=ws&path=%2Fgdsdfxa#TW-g3hcwn3k
-vless://62cceeb1-0cdc-4e4b-8e2e-7645bbe56779@da.660214.xyz:35917?encryption=none&security=none&type=ws&path=%2Fgdsdfxa#TW-b2wupnjq
-vless://b05a76fd-03c7-4dd5-8e3c-3776548b4293@da.660214.xyz:35917?encryption=none&security=none&type=ws&path=%2Fgdsdfxa#TW-fok6exnm
-vless://13181f7c-4cfb-4899-a145-74676af6ae6f@da.660214.xyz:35917?encryption=none&security=none&type=ws&path=%2Fgdsdfxa#TW-u2b0hv0t
-vless://623d5f2e-b9d1-4c2f-adeb-2f94c768b646@da.660214.xyz:35917?encryption=none&security=none&type=ws&path=%2Fgdsdfxa#TW-ao09g6qi
+vless://36535baf-56aa-4d61-8527-08eb8b539298@da.660214.xyz:44216?encryption=none&security=reality&sni=yahoo.com&fp=chrome&pbk=g39Tnr900saojilyv3Td6N_AsCs5jD-MOeNlLMbTb3g&sid=549d0e36&spx=%2F&type=tcp&headerType=none#US-rzruiop2
+vless://22ae72cb-3cd1-4e24-8e83-74f17a0491cd@da.660214.xyz:36699?encryption=none&security=reality&sni=yahoo.com&fp=chrome&pbk=4TfoM7S3uLl2tDEBfCpwnCxPk-pcr3KmBU7HBVVLUxM&sid=5f8caefb&spx=%2F&type=tcp&headerType=none#HK-5ur258ii
+vless://97d3a18e-00c8-40b9-8d97-5c7586fe80b1@da.660214.xyz:23928?encryption=none&security=reality&sni=yahoo.com&fp=chrome&pbk=MsDSyHwnhvzToQgLHv7gKalfdybnmnLmp66kQXrKkls&sid=6c38&spx=%2F&type=tcp&headerType=none#JP-v544mhqm
+vless://a61cafc8-c8bb-40f8-9074-a488964b7d2a@da.660214.xyz:22613?encryption=none&security=reality&sni=yahoo.com&fp=chrome&pbk=7QSSGEbl2YUR8XSVyCdjDFvMxyBex5rbrCtEJntnvUw&sid=f8014852&spx=%2F&type=tcp&headerType=none#TW-kwam4ork
+vless://55b9cc47-e540-4233-a71b-004ac7ba8465@da.660214.xyz:51981?encryption=none&security=reality&sni=yahoo.com&fp=chrome&pbk=4twMRR1adlSpxOuUthsowlTTbqYuqk2IypsT0OjCMy8&sid=40d9&spx=%2F&type=tcp&headerType=none#JP2-kmb764g2
+vless://ddd79f40-0548-4e6a-8434-dbeb910dfa59@da.660214.xyz:51981?encryption=none&security=reality&sni=yahoo.com&fp=chrome&pbk=4twMRR1adlSpxOuUthsowlTTbqYuqk2IypsT0OjCMy8&sid=40d9&spx=%2F&type=tcp&headerType=none#JP2-c3fqlg9i
+vless://c78bcdd4-89ec-4a6f-9245-99a3f519b4aa@da.660214.xyz:51981?encryption=none&security=reality&sni=yahoo.com&fp=chrome&pbk=4twMRR1adlSpxOuUthsowlTTbqYuqk2IypsT0OjCMy8&sid=40d9&spx=%2F&type=tcp&headerType=none#JP2-44lu6n8g
+vless://26c7c16d-188c-4d37-89eb-30cbb3034f7a@da.660214.xyz:51981?encryption=none&security=reality&sni=yahoo.com&fp=chrome&pbk=4twMRR1adlSpxOuUthsowlTTbqYuqk2IypsT0OjCMy8&sid=40d9&spx=%2F&type=tcp&headerType=none#JP2-44ja21t9
+vless://69243464-5c5e-4c83-a290-4184907efe94@da.660214.xyz:51981?encryption=none&security=reality&sni=yahoo.com&fp=chrome&pbk=4twMRR1adlSpxOuUthsowlTTbqYuqk2IypsT0OjCMy8&sid=40d9&spx=%2F&type=tcp&headerType=none#JP2-um1iha4e
 `;
 
 let urls = [];
