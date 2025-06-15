@@ -13,15 +13,15 @@ let timestamp = 4102329600000;//2099-12-31
 
 //节点链接 + 订阅链接
 let MainData = `
-vless://d1c5f1dc-da42-4c66-85b7-2e848eee4472@da.660214.xyz:48526?encryption=none&security=none&type=ws&path=%2Fdfsda#US-zuplhrsr
-vless://cbccc7b7-eb4d-4afc-9894-9e42c613cd5c@da.660214.xyz:29329?encryption=none&security=none&type=ws&path=%2Fesdaa#HK-2upnzxwa
-vless://b055cc68-8c67-4a9a-a291-b16fa40f0c96@da.660214.xyz:55370?encryption=none&security=none&type=ws&path=%2Fcsdsasda#JP-5u62ob95
-vless://222a2269-a4c0-4d2e-b936-d4846a34f248@da.660214.xyz:38440?encryption=none&security=none&type=ws&path=%2Fesadasd#TW-k4z3a35r
-vless://e8ccc8d9-34ac-4924-b8c9-89040fbc6230@da.660214.xyz:30138?encryption=none&security=none&type=ws&path=%2Freasdas#HK-alv5j9jc
-vless://ffadd5c3-e1f8-4d0b-885d-ad6c0f8e4d86@da.660214.xyz:30138?encryption=none&security=none&type=ws&path=%2Freasdas#HK-z19318kl
-vless://2c287a7d-660f-494f-96bc-0257d30e4b86@da.660214.xyz:30138?encryption=none&security=none&type=ws&path=%2Freasdas#HK-u655qc9y
-vless://2ea407fb-a47c-47d6-a43f-536a46423833@da.660214.xyz:30138?encryption=none&security=none&type=ws&path=%2Freasdas#HK-1n6mnjdm
-vless://4a39a545-5452-44df-b8d1-0fef5132e05e@da.660214.xyz:30138?encryption=none&security=none&type=ws&path=%2Freasdas#HK-r6h77ogm
+vless://f7f79169-6e0e-43a0-af9e-e322c43c6968@da.660214.xyz:30321?encryption=none&security=none&type=ws&path=%2Fsdaasd#US-e5wb7qqi
+vless://5b92c1fa-16c9-4cfa-9c7b-d6db984b8f90@da.660214.xyz:52834?encryption=none&security=none&type=ws&path=%2Fcsdasda#HK-am375glk
+vless://0ec69997-74f0-4823-a5b5-0c08d428a380@da.660214.xyz:47908?encryption=none&security=none&type=ws&path=%2Fbdssfasd#JP-87wj0r7q
+vless://3de196e7-c6fc-4919-a253-4f952177ad77@da.660214.xyz:35917?encryption=none&security=none&type=ws&path=%2Fgdsdfxa#TW-dof6f73g
+vless://71f683b1-9a27-4a4a-b19e-aff8be56dbd0@da.660214.xyz:35917?encryption=none&security=none&type=ws&path=%2Fgdsdfxa#TW-g3hcwn3k
+vless://62cceeb1-0cdc-4e4b-8e2e-7645bbe56779@da.660214.xyz:35917?encryption=none&security=none&type=ws&path=%2Fgdsdfxa#TW-b2wupnjq
+vless://b05a76fd-03c7-4dd5-8e3c-3776548b4293@da.660214.xyz:35917?encryption=none&security=none&type=ws&path=%2Fgdsdfxa#TW-fok6exnm
+vless://13181f7c-4cfb-4899-a145-74676af6ae6f@da.660214.xyz:35917?encryption=none&security=none&type=ws&path=%2Fgdsdfxa#TW-u2b0hv0t
+vless://623d5f2e-b9d1-4c2f-adeb-2f94c768b646@da.660214.xyz:35917?encryption=none&security=none&type=ws&path=%2Fgdsdfxa#TW-ao09g6qi
 `;
 
 let urls = [];
