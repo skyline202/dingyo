@@ -1,7 +1,7 @@
 
 // 部署完成后在网址后面加上这个，获取自建节点和机场聚合节点，/?token=auto或/auto或
 
-let mytoken = 'dingyuecc';
+let mytoken = 'aucc';
 let guestToken = ''; //可以随便取，或者uuid生成，https://1024tools.com/uuid
 let BotToken = ''; //可以为空，或者@BotFather中输入/start，/newbot，并关注机器人
 let ChatID = ''; //可以为空，或者@userinfobot中获取，/start
@@ -13,7 +13,6 @@ let timestamp = 4102329600000;//2099-12-31
 
 //节点链接 + 订阅链接
 let MainData = `
-vless://36535baf-56aa-4d61-8527-08eb8b539298@da.660214.xyz:44216?encryption=none&security=reality&sni=yahoo.com&fp=chrome&pbk=g39Tnr900saojilyv3Td6N_AsCs5jD-MOeNlLMbTb3g&sid=549d0e36&spx=%2F&type=tcp&headerType=none#US-rzruiop2
 vless://22ae72cb-3cd1-4e24-8e83-74f17a0491cd@da.660214.xyz:36699?encryption=none&security=reality&sni=yahoo.com&fp=chrome&pbk=4TfoM7S3uLl2tDEBfCpwnCxPk-pcr3KmBU7HBVVLUxM&sid=5f8caefb&spx=%2F&type=tcp&headerType=none#HK-5ur258ii
 vless://97d3a18e-00c8-40b9-8d97-5c7586fe80b1@da.660214.xyz:23928?encryption=none&security=reality&sni=yahoo.com&fp=chrome&pbk=MsDSyHwnhvzToQgLHv7gKalfdybnmnLmp66kQXrKkls&sid=6c38&spx=%2F&type=tcp&headerType=none#JP-v544mhqm
 vless://a61cafc8-c8bb-40f8-9074-a488964b7d2a@da.660214.xyz:22613?encryption=none&security=reality&sni=yahoo.com&fp=chrome&pbk=7QSSGEbl2YUR8XSVyCdjDFvMxyBex5rbrCtEJntnvUw&sid=f8014852&spx=%2F&type=tcp&headerType=none#TW-kwam4ork
@@ -22,6 +21,7 @@ vless://ddd79f40-0548-4e6a-8434-dbeb910dfa59@da.660214.xyz:51981?encryption=none
 vless://c78bcdd4-89ec-4a6f-9245-99a3f519b4aa@da.660214.xyz:51981?encryption=none&security=reality&sni=yahoo.com&fp=chrome&pbk=4twMRR1adlSpxOuUthsowlTTbqYuqk2IypsT0OjCMy8&sid=40d9&spx=%2F&type=tcp&headerType=none#JP2-44lu6n8g
 vless://26c7c16d-188c-4d37-89eb-30cbb3034f7a@da.660214.xyz:51981?encryption=none&security=reality&sni=yahoo.com&fp=chrome&pbk=4twMRR1adlSpxOuUthsowlTTbqYuqk2IypsT0OjCMy8&sid=40d9&spx=%2F&type=tcp&headerType=none#JP2-44ja21t9
 vless://69243464-5c5e-4c83-a290-4184907efe94@da.660214.xyz:51981?encryption=none&security=reality&sni=yahoo.com&fp=chrome&pbk=4twMRR1adlSpxOuUthsowlTTbqYuqk2IypsT0OjCMy8&sid=40d9&spx=%2F&type=tcp&headerType=none#JP2-um1iha4e
+vless://db9bf0be-51bf-4a82-9ea3-12b02ba03f97@da.660214.xyz:51981?encryption=none&security=reality&sni=yahoo.com&fp=chrome&pbk=4twMRR1adlSpxOuUthsowlTTbqYuqk2IypsT0OjCMy8&sid=40d9&spx=%2F&type=tcp&headerType=none#JP2-elilrvb7
 `;
 
 let urls = [];
