@@ -13,15 +13,15 @@ let timestamp = 4102329600000;//2099-12-31
 
 //节点链接 + 订阅链接
 let MainData = `
-vless://22ae72cb-3cd1-4e24-8e83-74f17a0491cd@da.660214.xyz:36699?encryption=none&security=reality&sni=yahoo.com&fp=chrome&pbk=4TfoM7S3uLl2tDEBfCpwnCxPk-pcr3KmBU7HBVVLUxM&sid=5f8caefb&spx=%2F&type=tcp&headerType=none#HK-5ur258ii
-vless://97d3a18e-00c8-40b9-8d97-5c7586fe80b1@da.660214.xyz:23928?encryption=none&security=reality&sni=yahoo.com&fp=chrome&pbk=MsDSyHwnhvzToQgLHv7gKalfdybnmnLmp66kQXrKkls&sid=6c38&spx=%2F&type=tcp&headerType=none#JP-v544mhqm
-vless://a61cafc8-c8bb-40f8-9074-a488964b7d2a@da.660214.xyz:22613?encryption=none&security=reality&sni=yahoo.com&fp=chrome&pbk=7QSSGEbl2YUR8XSVyCdjDFvMxyBex5rbrCtEJntnvUw&sid=f8014852&spx=%2F&type=tcp&headerType=none#TW-kwam4ork
-vless://55b9cc47-e540-4233-a71b-004ac7ba8465@da.660214.xyz:51981?encryption=none&security=reality&sni=yahoo.com&fp=chrome&pbk=4twMRR1adlSpxOuUthsowlTTbqYuqk2IypsT0OjCMy8&sid=40d9&spx=%2F&type=tcp&headerType=none#JP2-kmb764g2
-vless://ddd79f40-0548-4e6a-8434-dbeb910dfa59@da.660214.xyz:51981?encryption=none&security=reality&sni=yahoo.com&fp=chrome&pbk=4twMRR1adlSpxOuUthsowlTTbqYuqk2IypsT0OjCMy8&sid=40d9&spx=%2F&type=tcp&headerType=none#JP2-c3fqlg9i
-vless://c78bcdd4-89ec-4a6f-9245-99a3f519b4aa@da.660214.xyz:51981?encryption=none&security=reality&sni=yahoo.com&fp=chrome&pbk=4twMRR1adlSpxOuUthsowlTTbqYuqk2IypsT0OjCMy8&sid=40d9&spx=%2F&type=tcp&headerType=none#JP2-44lu6n8g
-vless://26c7c16d-188c-4d37-89eb-30cbb3034f7a@da.660214.xyz:51981?encryption=none&security=reality&sni=yahoo.com&fp=chrome&pbk=4twMRR1adlSpxOuUthsowlTTbqYuqk2IypsT0OjCMy8&sid=40d9&spx=%2F&type=tcp&headerType=none#JP2-44ja21t9
-vless://69243464-5c5e-4c83-a290-4184907efe94@da.660214.xyz:51981?encryption=none&security=reality&sni=yahoo.com&fp=chrome&pbk=4twMRR1adlSpxOuUthsowlTTbqYuqk2IypsT0OjCMy8&sid=40d9&spx=%2F&type=tcp&headerType=none#JP2-um1iha4e
-vless://db9bf0be-51bf-4a82-9ea3-12b02ba03f97@da.660214.xyz:51981?encryption=none&security=reality&sni=yahoo.com&fp=chrome&pbk=4twMRR1adlSpxOuUthsowlTTbqYuqk2IypsT0OjCMy8&sid=40d9&spx=%2F&type=tcp&headerType=none#JP2-elilrvb7
+vless://02d659b5-7c00-4166-8622-51f4455fd011@da.660214.xyz:57121?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yahoo.com&fp=chrome&pbk=yJERN7gOl9wkvzYlyzRpuqiLE87NJi6D6e2Ld9Ekcl4&sid=bb1a&spx=%2F&type=tcp&headerType=none#US-wc29sktl
+vless://139b7508-0baa-4f5a-8ed2-de002589c7a5@da.660214.xyz:24605?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yahoo.com&fp=chrome&pbk=fpdoFyJeuRY1vUZT5GHwI7gXd-tiNCMwzqZ03Hooqxs&sid=d51d1f409b7d21ed&spx=%2F&type=tcp&headerType=none#HK-tv0i4pti
+vless://74713c09-c288-4c68-bbc4-f76d28f63915@da.660214.xyz:32942?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yahoo.com&fp=chrome&pbk=agOSQMO4mOhZD4hZ8TZSwpmZJmTJRKksDlbUJufZNQs&sid=f196d3980df67b&spx=%2F&type=tcp&headerType=none#JP-e0mxwun1
+vless://ef3e9fe4-02e6-4abf-a895-04c11da33d47@da.660214.xyz:14357?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yahoo.com&fp=chrome&pbk=l9qrDGky0vItGMXQlU7dV7SDcDDZRXbTDqTFkqRFSjM&sid=373426806f40&spx=%2F&type=tcp&headerType=none#HK2-craqj2te
+vless://a0e12cd9-b40f-4ba9-8485-8d92bad80af4@da.660214.xyz:14357?encryption=none&security=reality&sni=yahoo.com&fp=chrome&pbk=l9qrDGky0vItGMXQlU7dV7SDcDDZRXbTDqTFkqRFSjM&sid=373426806f40&spx=%2F&type=tcp&headerType=none#HK2-fm3tiihh
+vless://4a71fd2c-30b0-4feb-b6d5-74d8a41e4b7a@da.660214.xyz:14357?encryption=none&security=reality&sni=yahoo.com&fp=chrome&pbk=l9qrDGky0vItGMXQlU7dV7SDcDDZRXbTDqTFkqRFSjM&sid=373426806f40&spx=%2F&type=tcp&headerType=none#HK2-bg1fzm6j
+vless://b5d1f2af-ab56-4afa-b8c9-f45e05d60360@da.660214.xyz:14357?encryption=none&security=reality&sni=yahoo.com&fp=chrome&pbk=l9qrDGky0vItGMXQlU7dV7SDcDDZRXbTDqTFkqRFSjM&sid=373426806f40&spx=%2F&type=tcp&headerType=none#HK2-00c4sptc
+vless://e6b3bd7b-1c44-46a4-ac7f-1c845e753c94@da.660214.xyz:14357?encryption=none&security=reality&sni=yahoo.com&fp=chrome&pbk=l9qrDGky0vItGMXQlU7dV7SDcDDZRXbTDqTFkqRFSjM&sid=373426806f40&spx=%2F&type=tcp&headerType=none#HK2-5aruzczo
+vless://1c75e0fe-c21a-44df-b568-44c765c491ca@da.660214.xyz:14357?encryption=none&security=reality&sni=yahoo.com&fp=chrome&pbk=l9qrDGky0vItGMXQlU7dV7SDcDDZRXbTDqTFkqRFSjM&sid=373426806f40&spx=%2F&type=tcp&headerType=none#HK2-t8dwwhw7
 `;
 
 let urls = [];
