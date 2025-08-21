@@ -13,15 +13,15 @@ let timestamp = 4102329600000;//2099-12-31
 
 //节点链接 + 订阅链接
 let MainData = `
-vless://0b0a538d-2ee4-413c-9726-e78eb1f802e5@da.660214.xyz:56953?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yahoo.com&fp=chrome&pbk=tNqi1uRc4uFS0W5oWXvxwr2i0ax-0TTtEAlqCpUZ_0Q&sid=90b5f4&spx=%2F&type=tcp&headerType=none#US-d6k8bs3a
-vless://ce2720f6-6b7c-4410-ab2d-6cf686b5135d@da.660214.xyz:28991?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yahoo.com&fp=chrome&pbk=KFp_ukrTAH6UUgABAxqucHcgZFHF1TFYrAcX_2RHzCM&sid=cc171d9441c80c&spx=%2F&type=tcp&headerType=none#HK-1du1rnpm
-vless://05c8bb72-3fc8-4dab-bad2-17363e464a8d@da.660214.xyz:28991?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yahoo.com&fp=chrome&pbk=KFp_ukrTAH6UUgABAxqucHcgZFHF1TFYrAcX_2RHzCM&sid=cc171d9441c80c&spx=%2F&type=tcp&headerType=none#HK-b81jdzpz
-vless://25e187a0-bfbf-4f01-a663-f82e97ea1bc8@da.660214.xyz:28991?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yahoo.com&fp=chrome&pbk=KFp_ukrTAH6UUgABAxqucHcgZFHF1TFYrAcX_2RHzCM&sid=cc171d9441c80c&spx=%2F&type=tcp&headerType=none#HK-36d2fqq1
-vless://044f8a21-8f51-40b7-8294-180db1ec6b68@da.660214.xyz:28991?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yahoo.com&fp=chrome&pbk=KFp_ukrTAH6UUgABAxqucHcgZFHF1TFYrAcX_2RHzCM&sid=cc171d9441c80c&spx=%2F&type=tcp&headerType=none#HK-zsqno13o
-vless://21f3ff69-e0eb-4a3e-ad0d-89366eddc564@da.660214.xyz:28991?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yahoo.com&fp=chrome&pbk=KFp_ukrTAH6UUgABAxqucHcgZFHF1TFYrAcX_2RHzCM&sid=cc171d9441c80c&spx=%2F&type=tcp&headerType=none#HK-sng1z7ks
-vless://10dc6a2f-249d-4353-b8b1-5b88cf073fa3@da.660214.xyz:28991?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yahoo.com&fp=chrome&pbk=KFp_ukrTAH6UUgABAxqucHcgZFHF1TFYrAcX_2RHzCM&sid=cc171d9441c80c&spx=%2F&type=tcp&headerType=none#HK-yt4bdcqg
-vless://a712fcc2-06e4-4324-ac0f-2dfc086810aa@da.660214.xyz:27390?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yahoo.com&fp=chrome&pbk=Uccmgh065zCg7rY1BIVvKJ23LIqtceLmsAwmwTUDT2Q&sid=5f102f&spx=%2F&type=tcp&headerType=none#JP-lli7b8zs
-vless://bb2ff549-b2dc-4199-817b-0781da716078@da.660214.xyz:37485?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yahoo.com&fp=chrome&pbk=zr7ctLmecilYnf1P2oFLb1q-F9eEwp1cBCUHupPHiRs&sid=4792&spx=%2F&type=tcp&headerType=none#TW-cqlgpagi
+vless://440a7bb3-acd5-4d89-b84a-233c5e7c0140@fa.660214.xyz:39256?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yahoo.com&fp=chrome&pbk=jV7RgdCUWyCfjBO7gTGku3Krv9JzxBRUVGBKOutddR8&sid=243f9f13&spx=%2F&type=tcp&headerType=none#US-jemso0go
+vless://79971553-7981-4f68-85e7-cdeb6f33a629@fa.660214.xyz:17665?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yahoo.com&fp=chrome&pbk=cWROoo88EYn8n6ei2oI44e1MEEhlfoO7IJgQYW1KwDM&sid=6a30a983&spx=%2F&type=tcp&headerType=none#JP-oq5dkhih
+vless://319d7b85-bfe3-4a8c-92d0-0b35688bf7e4@fa.660214.xyz:39569?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yahoo.com&fp=chrome&pbk=n1yecePELzn5_RQICcQR6nJvcMiSlYDYJT-wxM5jVj0&sid=2735e7ef76ce70&spx=%2F&type=tcp&headerType=none#HK-dyevf0of
+vless://34ed4fe2-fba7-49ef-b2ca-02781fcdfdb0@fa.660214.xyz:39569?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yahoo.com&fp=chrome&pbk=n1yecePELzn5_RQICcQR6nJvcMiSlYDYJT-wxM5jVj0&sid=2735e7ef76ce70&spx=%2F&type=tcp&headerType=none#HK-haybb9od
+vless://4e27eb40-d4f9-4a57-ac82-b57ecf365258@fa.660214.xyz:21556?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yahoo.com&fp=chrome&pbk=MHGWmIuFni0b109lxOBRaGS6upzDhB7BkrURyiyZWkI&sid=c48f51ac&spx=%2F&type=tcp&headerType=none#SG-z8h8u4am
+vless://3b31f33b-f41f-4a2d-9e63-7093e5e4183b@fa.660214.xyz:21556?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yahoo.com&fp=chrome&pbk=MHGWmIuFni0b109lxOBRaGS6upzDhB7BkrURyiyZWkI&sid=c48f51ac&spx=%2F&type=tcp&headerType=none#SG-hu5pnx02
+vless://3c7a5eb9-7a31-4647-8c6f-717f7b2a3930@fa.660214.xyz:21556?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yahoo.com&fp=chrome&pbk=MHGWmIuFni0b109lxOBRaGS6upzDhB7BkrURyiyZWkI&sid=c48f51ac&spx=%2F&type=tcp&headerType=none#SG-tt8x5qqf
+vless://16a85748-3276-4a99-867c-1589db308905@fa.660214.xyz:21556?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yahoo.com&fp=chrome&pbk=MHGWmIuFni0b109lxOBRaGS6upzDhB7BkrURyiyZWkI&sid=c48f51ac&spx=%2F&type=tcp&headerType=none#SG-8ymk54q8
+vless://d15275e1-2374-4c06-bfd4-61b731cc42c1@fa.660214.xyz:21556?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yahoo.com&fp=chrome&pbk=MHGWmIuFni0b109lxOBRaGS6upzDhB7BkrURyiyZWkI&sid=c48f51ac&spx=%2F&type=tcp&headerType=none#SG-1ckxaf5p
 `;
 
 let urls = [];
@@ -834,3 +834,4 @@ async function KV(request, env, txt = 'ADD.txt', guest) {
 		});
 	}
 }
+
