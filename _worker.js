@@ -13,7 +13,15 @@ let timestamp = 4102329600000;//2099-12-31
 
 //节点链接 + 订阅链接
 let MainData = `
-https://cfxr.eu.org/getSub
+vless://0b0a538d-2ee4-413c-9726-e78eb1f802e5@da.660214.xyz:56953?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yahoo.com&fp=chrome&pbk=tNqi1uRc4uFS0W5oWXvxwr2i0ax-0TTtEAlqCpUZ_0Q&sid=90b5f4&spx=%2F&type=tcp&headerType=none#US-d6k8bs3a
+vless://ce2720f6-6b7c-4410-ab2d-6cf686b5135d@da.660214.xyz:28991?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yahoo.com&fp=chrome&pbk=KFp_ukrTAH6UUgABAxqucHcgZFHF1TFYrAcX_2RHzCM&sid=cc171d9441c80c&spx=%2F&type=tcp&headerType=none#HK-1du1rnpm
+vless://05c8bb72-3fc8-4dab-bad2-17363e464a8d@da.660214.xyz:28991?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yahoo.com&fp=chrome&pbk=KFp_ukrTAH6UUgABAxqucHcgZFHF1TFYrAcX_2RHzCM&sid=cc171d9441c80c&spx=%2F&type=tcp&headerType=none#HK-b81jdzpz
+vless://25e187a0-bfbf-4f01-a663-f82e97ea1bc8@da.660214.xyz:28991?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yahoo.com&fp=chrome&pbk=KFp_ukrTAH6UUgABAxqucHcgZFHF1TFYrAcX_2RHzCM&sid=cc171d9441c80c&spx=%2F&type=tcp&headerType=none#HK-36d2fqq1
+vless://044f8a21-8f51-40b7-8294-180db1ec6b68@da.660214.xyz:28991?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yahoo.com&fp=chrome&pbk=KFp_ukrTAH6UUgABAxqucHcgZFHF1TFYrAcX_2RHzCM&sid=cc171d9441c80c&spx=%2F&type=tcp&headerType=none#HK-zsqno13o
+vless://21f3ff69-e0eb-4a3e-ad0d-89366eddc564@da.660214.xyz:28991?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yahoo.com&fp=chrome&pbk=KFp_ukrTAH6UUgABAxqucHcgZFHF1TFYrAcX_2RHzCM&sid=cc171d9441c80c&spx=%2F&type=tcp&headerType=none#HK-sng1z7ks
+vless://10dc6a2f-249d-4353-b8b1-5b88cf073fa3@da.660214.xyz:28991?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yahoo.com&fp=chrome&pbk=KFp_ukrTAH6UUgABAxqucHcgZFHF1TFYrAcX_2RHzCM&sid=cc171d9441c80c&spx=%2F&type=tcp&headerType=none#HK-yt4bdcqg
+vless://a712fcc2-06e4-4324-ac0f-2dfc086810aa@da.660214.xyz:27390?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yahoo.com&fp=chrome&pbk=Uccmgh065zCg7rY1BIVvKJ23LIqtceLmsAwmwTUDT2Q&sid=5f102f&spx=%2F&type=tcp&headerType=none#JP-lli7b8zs
+vless://bb2ff549-b2dc-4199-817b-0781da716078@da.660214.xyz:37485?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yahoo.com&fp=chrome&pbk=zr7ctLmecilYnf1P2oFLb1q-F9eEwp1cBCUHupPHiRs&sid=4792&spx=%2F&type=tcp&headerType=none#TW-cqlgpagi
 `;
 
 let urls = [];
@@ -825,4 +833,5 @@ async function KV(request, env, txt = 'ADD.txt', guest) {
 			headers: { "Content-Type": "text/plain;charset=utf-8" }
 		});
 	}
+
 }
