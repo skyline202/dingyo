@@ -13,15 +13,14 @@ let timestamp = 4102329600000;//2099-12-31
 
 //节点链接 + 订阅链接
 let MainData = `
-vless://0b0a538d-2ee4-413c-9726-e78eb1f802e5@da.660214.xyz:56953?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yahoo.com&fp=chrome&pbk=tNqi1uRc4uFS0W5oWXvxwr2i0ax-0TTtEAlqCpUZ_0Q&sid=90b5f4&spx=%2F&type=tcp&headerType=none#US-d6k8bs3a
-vless://ce2720f6-6b7c-4410-ab2d-6cf686b5135d@da.660214.xyz:28991?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yahoo.com&fp=chrome&pbk=KFp_ukrTAH6UUgABAxqucHcgZFHF1TFYrAcX_2RHzCM&sid=cc171d9441c80c&spx=%2F&type=tcp&headerType=none#HK-1du1rnpm
-vless://05c8bb72-3fc8-4dab-bad2-17363e464a8d@da.660214.xyz:28991?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yahoo.com&fp=chrome&pbk=KFp_ukrTAH6UUgABAxqucHcgZFHF1TFYrAcX_2RHzCM&sid=cc171d9441c80c&spx=%2F&type=tcp&headerType=none#HK-b81jdzpz
-vless://25e187a0-bfbf-4f01-a663-f82e97ea1bc8@da.660214.xyz:28991?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yahoo.com&fp=chrome&pbk=KFp_ukrTAH6UUgABAxqucHcgZFHF1TFYrAcX_2RHzCM&sid=cc171d9441c80c&spx=%2F&type=tcp&headerType=none#HK-36d2fqq1
-vless://044f8a21-8f51-40b7-8294-180db1ec6b68@da.660214.xyz:28991?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yahoo.com&fp=chrome&pbk=KFp_ukrTAH6UUgABAxqucHcgZFHF1TFYrAcX_2RHzCM&sid=cc171d9441c80c&spx=%2F&type=tcp&headerType=none#HK-zsqno13o
-vless://21f3ff69-e0eb-4a3e-ad0d-89366eddc564@da.660214.xyz:28991?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yahoo.com&fp=chrome&pbk=KFp_ukrTAH6UUgABAxqucHcgZFHF1TFYrAcX_2RHzCM&sid=cc171d9441c80c&spx=%2F&type=tcp&headerType=none#HK-sng1z7ks
-vless://10dc6a2f-249d-4353-b8b1-5b88cf073fa3@da.660214.xyz:28991?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yahoo.com&fp=chrome&pbk=KFp_ukrTAH6UUgABAxqucHcgZFHF1TFYrAcX_2RHzCM&sid=cc171d9441c80c&spx=%2F&type=tcp&headerType=none#HK-yt4bdcqg
-vless://a712fcc2-06e4-4324-ac0f-2dfc086810aa@da.660214.xyz:27390?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yahoo.com&fp=chrome&pbk=Uccmgh065zCg7rY1BIVvKJ23LIqtceLmsAwmwTUDT2Q&sid=5f102f&spx=%2F&type=tcp&headerType=none#JP-lli7b8zs
-vless://bb2ff549-b2dc-4199-817b-0781da716078@da.660214.xyz:37485?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yahoo.com&fp=chrome&pbk=zr7ctLmecilYnf1P2oFLb1q-F9eEwp1cBCUHupPHiRs&sid=4792&spx=%2F&type=tcp&headerType=none#TW-cqlgpagi
+vless://b4861a30-8307-41e0-841d-316032816870@da.660214.xyz:45491?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.intel.com&fp=chrome&pbk=PAZGPgX53CjMi02-bsuV2S3HjRNvb2b8xwg1pSKukDs&sid=fd&spx=%2F&type=tcp&headerType=none#hk-1ap2tmd9
+vless://ee00614a-2f71-41a3-80a0-53bd55717a9f@da.660214.xyz:45491?encryption=none&security=reality&sni=www.intel.com&fp=chrome&pbk=PAZGPgX53CjMi02-bsuV2S3HjRNvb2b8xwg1pSKukDs&sid=fd&spx=%2F&type=tcp&headerType=none#hk-o1p7785m
+vless://c69d5ca1-e817-4269-9357-90df75b34361@da.660214.xyz:45491?encryption=none&security=reality&sni=www.intel.com&fp=chrome&pbk=PAZGPgX53CjMi02-bsuV2S3HjRNvb2b8xwg1pSKukDs&sid=fd&spx=%2F&type=tcp&headerType=none#hk-bxvodiz6
+vless://9f61d08b-5a12-428f-a6ed-55f0e949e4ed@da.660214.xyz:31322?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.intel.com&fp=chrome&pbk=5UtdbA7fuw74pQdArgtGn_zgXl6J3Qw5uX3AYVzewzg&sid=343f02&spx=%2F&type=tcp&headerType=none#sg-pbjequ6e
+vless://2c4560be-73dd-4b77-8ad1-6c4254dcf88d@da.660214.xyz:31322?encryption=none&security=reality&sni=www.intel.com&fp=chrome&pbk=5UtdbA7fuw74pQdArgtGn_zgXl6J3Qw5uX3AYVzewzg&sid=343f02&spx=%2F&type=tcp&headerType=none#sg-nwm4xcgn
+vless://db5b9a8b-7d84-4b63-8ac7-0312c00a8465@da.660214.xyz:31322?encryption=none&security=reality&sni=www.intel.com&fp=chrome&pbk=5UtdbA7fuw74pQdArgtGn_zgXl6J3Qw5uX3AYVzewzg&sid=343f02&spx=%2F&type=tcp&headerType=none#sg-ra0zrema
+vless://39aa7555-1aea-4fac-a637-46ec26c3602f@da.660214.xyz:54659?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.nvidia.com&fp=chrome&pbk=kgnQbf2HArnUN_eN6kjOACo4EM2LGz3tOLP_Wg9KUiU&sid=69dcd6c550ce&spx=%2F&type=tcp&headerType=none#us-09x0ulqw
+vless://5c37c411-850f-42f2-be4f-6c320461ef74@da.660214.xyz:56115?encryption=none&flow=xtls-rprx-vision&security=reality&sni=azure.microsoft.com&fp=chrome&pbk=LWteB0koc8nR2kbIPybmtKtMW3mttUwcdS_rLvFz7S8&sid=9843e274f76810&spx=%2F&type=tcp&headerType=none#jp-6toxg2ss
 `;
 
 let urls = [];
@@ -835,3 +834,4 @@ async function KV(request, env, txt = 'ADD.txt', guest) {
 	}
 
 }
+
